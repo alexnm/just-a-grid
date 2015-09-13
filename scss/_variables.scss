@@ -1,0 +1,10 @@
+// Breakpoints
+$bp-570    : "min-width: 570px" !default;
+$bp-768    : "min-width: 768px" !default;
+$bp-1000   : "min-width: 1000px" !default;
+$bp-1200 	 : "min-width: 1200px" !default;
+
+//Grid Variables
+$total-columns: 12 !default;
+$column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
+$column-margin: 4% !default; // space between columns
